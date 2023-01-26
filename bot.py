@@ -29,8 +29,8 @@ def register_all_filters(dp):
 def register_all_handlers(dp):
     register_admin(dp)
     register_user(dp)
-
-    register_echo(dp)
+    # for debugging
+    # register_echo(dp)
 
 
 async def main():

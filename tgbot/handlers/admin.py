@@ -32,7 +32,7 @@ async def get_file(m: Message):
     await m.answer('⏳')
     res = await get_information(file_name, m)
     if res:
-        await m.answer('dwdwd')
+        await m.answer('Import muvaffaqiyatli yakunlandi ✅')
     else:
         await m.answer('Xato formatda yuborildi. Iltimos qayta tekshirib yuboring. ❌', reply_markup=Back)
 
