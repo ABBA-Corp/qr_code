@@ -22,7 +22,7 @@ jobs:
         KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       with:
         source: "."
-        target: "/root/MedTour"
+        target: "/home/Bot/qr_code"
 
     - name: Command using from script
       uses: appleboy/ssh-action@master
